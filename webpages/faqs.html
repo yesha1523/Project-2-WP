@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stationery 4 You</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="icon" href="../imgs/favicon.jpg" type image>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="navbar-brand" href="index.html"><img src="../imgs/SiteLogo.png" alt="Site Logo"></a>
+            <div class="menu-toggle">
+                <i class="fa fa-solid fa fa-bars"></i>
+              </div>
+    
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="contactus.html">ContactUs</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Frequently Asked Questions</h1>
+        <section class="about-section layout_padding">
+
+            <div class="unit">
+
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button id="accordion-button" aria-expanded="false">
+                            <span class="accordion-title">Are there any categories available?</span>
+                            <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>
+                                Yes, there are various category options available under the products page. Also you can view any products there and order it.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button id="accordion-button" aria-expanded="false">
+                            <span class="accordion-title">How can I contact you?</span>
+                            <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>
+                                You can contact us by email and phone call and another option is you can add your queries in contact form. We will soon respond to your queries in 2-3 working days.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button id="accordion-button" aria-expanded="false">
+                            <span class="accordion-title">How can I find product's description?</span>
+                            <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>
+                                Yes, you can visit our product page and get the detailed information about the products. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button id="accordion-button" aria-expanded="false">
+                            <span class="accordion-title">Can I just call for my order?</span>
+                            <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>
+                                No, as we designed our website to be user friendly, you can order your products online.
+                            </p>
+                        </div>
+                    </div>
+                </div><div class="accordion">
+                    <div class="accordion-item">
+                        <button id="accordion-button" aria-expanded="false">
+                            <span class="accordion-title">When my order will be delivered?</span>
+                            <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>
+                                Your order will be delivered at the address that you had entered at the time of checkout process.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button id="accordion-button" aria-expanded="false">
+                            <span class="accordion-title">How soon my ordered will be delivered?</span>
+                            <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>
+                                Your order will be delivered soon in 3-4 working days.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div id="footer">
+            <div class="item">
+                <h3>Store hours</h3>
+                <ul>
+                    <li>Mon-Sat: 9am - 9pm</li>
+                    <li>Sun: 9am - 4pm</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <h3>Information</h3>
+                <ul>
+                    <li>6448-Finch Avenue West</li>
+                    <li>Mississauga, Toronto.</li>
+                    <li>Ontario M9V3T6</li>
+                    <li><a href="tel:123-456-7890">Call: 123-456-7890</a></li>
+                    <li><a href="mailto: email@example.com">Mail: Stationery4You@gmail.com</a></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                    <li><a href="contactus.html">ContactUs</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2024 All rights reserved by Stationery 4 You.</p>
+        </div>
+    </footer>
+    //faqs
+    <script>
+   var items = document.querySelectorAll('.accordion button');
+    
+    function toggleAccordion() {
+        const itemToggle = this.getAttribute('aria-expanded');
+    
+        for (i = 0; i < items.length; i++) {
+            items[i].setAttribute('aria-expanded', 'false');
+        }
+    
+        if (itemToggle == 'false') {
+            this.setAttribute('aria-expanded', 'true');
+        }
+    }
+    
+    items.forEach((item) => item.addEventListener('click', toggleAccordion));
+</script>
+</body>
+
+</html>
